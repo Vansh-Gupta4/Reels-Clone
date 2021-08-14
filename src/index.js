@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ContextParent from "./ContextParent";
+import Material from "./Material"
+import IntersectionDemo from "./intresectionobserver/IntersectionDemo"
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <ContextParent></ContextParent> */}
+    {/* <Material/> */}
+    {/* <IntersectionDemo></IntersectionDemo> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
